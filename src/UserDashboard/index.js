@@ -19,7 +19,7 @@ class UserDashboard extends Component {
 
   fetchStores = () => {
     const token = Cookies.get('jwt_token');
-    const apiUrl = 'https://store-rating-backend-rojx.onrender.com/dashboard/user';
+    const apiUrl = 'https://store-rating-backend-1-10po.onrender.com/dashboard/user';
 
     const options = {
       method: 'GET',
@@ -54,7 +54,7 @@ class UserDashboard extends Component {
   handleSubmitRating = () => {
     const { editableRating, selectedStoreId, stores } = this.state;
     const token = Cookies.get('jwt_token');
-    const apiUrl = 'https://store-rating-backend-rojx.onrender.com/dashboard/user/rating';
+    const apiUrl = 'https://store-rating-backend-1-10po.onrender.com/dashboard/user/rating';
 
     const options = {
       method: 'PUT',
