@@ -23,7 +23,7 @@ class LoginForm extends Component {
     Cookies.set("jwt_token", jwtToken, { expires: 30 });
 
     // 🧠 Step 1: Get user profile from backend
-    fetch("https://store-rating-backend-rojx.onrender.com/profile", {
+    fetch("https://store-rating-backend-1-10po.onrender.com/profile", {
       method: "GET",
       headers: {
         Authorization: `Bearer ${jwtToken}`
@@ -67,7 +67,7 @@ class LoginForm extends Component {
     const { name, password } = this.state;
     const userDetails = { name, password };
 
-    fetch("https://store-rating-backend-rojx.onrender.com/login", {
+    fetch("https://store-rating-backend-1-10po.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
