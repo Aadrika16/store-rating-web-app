@@ -35,7 +35,7 @@ class SignUpPage extends Component {
     const { name, email, password, address, role } = this.state;
     const userDetails = { name, email, password, address, role };
 
-    fetch("https://store-rating-backend-rojx.onrender.com/register", {
+    fetch("https://store-rating-backend-1-10po.onrender.com/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -115,7 +115,7 @@ class SignUpPage extends Component {
             Sign Up
           </button>
           <p className="message">
-            Already have an account? <a href="https://store-rating-backend-rojx.onrender.com/">Login</a>
+            Already have an account? <a href="https://store-rating-backend-1-10po.onrender.com/">Login</a>
           </p>
         </form>
       </div>
