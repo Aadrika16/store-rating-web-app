@@ -1,0 +1,111 @@
+.owner-dashboard {
+  padding: 20px;
+  background-color: #f4f6fa;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+}
+
+.owner-dashboard h1 {
+  color: #1e2a78;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.owner-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.owner-dashboard th,
+.owner-dashboard td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.owner-dashboard th {
+  background-color: #ff8c42;
+  color: white;
+}
+
+.owner-dashboard tr:hover {
+  background-color: #f6f6f6;
+}
+
+.store-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.store-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.store-form button {
+  padding: 10px 14px;
+  background-color: #ff8c42;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.store-form button:hover {
+  background-color: #e6762e;
+}
+
+button {
+  background-color: #1e2a78;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #15215c;
+}
+
+.loading {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #1e2a78;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.status-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.chart-container {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .owner-dashboard table, .owner-dashboard th, .owner-dashboard td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .store-form input {
+    font-size: 0.95rem;
+  }
+}

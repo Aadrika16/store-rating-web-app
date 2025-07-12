@@ -1,0 +1,58 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.jd-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jd-logo {
+  font-size: 32px;
+  color: #0d47a1;
+}
+
+.jd-logo span {
+  color: orange;
+}
+
+.search-location {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  padding: 8px;
+  width: 300px;
+  margin-left: 10px;
+}
+
+.search-btn {
+  padding: 8px 12px;
+  background: orange;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.valentine-banner {
+  background-color: #ffe6e6;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.categories-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.category-icon{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
