@@ -15,7 +15,6 @@ class AdminDashboard extends Component{
                 'Content-Type': 'application/json',
                 "Authorization" : `Bearer ${token}`,
             },
-            credentials: "include",
         }
         fetch(apiUrl , options) 
         .then((response) => {
