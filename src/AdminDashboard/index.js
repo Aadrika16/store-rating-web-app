@@ -7,7 +7,7 @@ class AdminDashboard extends Component{
         errMsg:""
     }
     componentDidMount(){
-        const apiUrl = "https://store-rating-backend-rojx.onrender.com/dashboard/admin"  
+        const apiUrl = "https://store-rating-backend-1-10po.onrender.com/dashboard/admin"  
         const token = Cookies.get("jwt_token") 
         const options = {
             method : "GET",
