@@ -27,7 +27,7 @@ class StoreOwnerDashboard extends Component {
     this.setState({ loading: true });
 
     try {
-      const res = await fetch('https://store-rating-backend-rojx.onrender.com/dashboard/owner', {
+      const res = await fetch('https://store-rating-backend-1-10po.onrender.com/dashboard/owner', {
         headers: {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${token}`,
@@ -61,7 +61,7 @@ class StoreOwnerDashboard extends Component {
     e.preventDefault();
     const { storeName, storeAddress, storeExists } = this.state;
     const token = Cookies.get('jwt_token');
-    const url = storeExists ? 'https://store-rating-backend-rojx.onrender.com/stores/update' : 'https://store-rating-backend-rojx.onrender.com/stores/add';
+    const url = storeExists ? 'https://store-rating-backend-1-10po.onrender.com/stores/update' : 'https://store-rating-backend-1-10po.onrender.com/stores/add';
     const method = storeExists ? 'PUT' : 'POST';
 
     this.setState({ loading: true });
