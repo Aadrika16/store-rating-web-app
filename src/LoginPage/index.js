@@ -73,7 +73,6 @@ class LoginForm extends Component {
         "Content-Type": "application/json"
       },
       body: JSON.stringify(userDetails),
-      credentials: "include"
     })
       .then(async (response) => {
         const data = await response.json();
